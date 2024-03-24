@@ -1,4 +1,5 @@
 # nosql-challenge_module12
+UNABLE TO UPLOAD RESOURCES FOLDER.  'mongoimport --type json -d uk_food -c establishments --drop --jsonArray establishments.json
 Libraries to use:PyMongo and Pretty Print (pprint).
 
 Instructions:
@@ -9,7 +10,7 @@ food critics decide where to focus future articles.
 **Part 1: Database and Jupyter Notebook Set Up**
 Import the data provided in the establishments.json file from your Terminal. 
 Name the database uk_food and the collection establishments. 
-'mongoimport --type json -d uk_food -c establishments --drop --jsonArray establishments.json
+
 
 Within your notebook, import the libraries you need: 
 Create an instance of the Mongo Client using mongo = MongoClient(port=27017)
